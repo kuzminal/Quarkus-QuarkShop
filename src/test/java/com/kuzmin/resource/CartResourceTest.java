@@ -5,10 +5,6 @@ import io.quarkus.test.common.QuarkusTestResource;
 import io.quarkus.test.junit.QuarkusTest;
 import io.restassured.http.ContentType;
 import org.junit.jupiter.api.Test;
-import javax.sql.DataSource;
-
-import javax.inject.Inject;
-import java.sql.SQLException;
 
 import static io.restassured.RestAssured.get;
 import static io.restassured.RestAssured.delete;
